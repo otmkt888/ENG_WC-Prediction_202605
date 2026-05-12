@@ -1,10 +1,10 @@
 /**
  * analytics.js
- * CTA target: https://www.12bet.com/en/join (registration page)
+ * CTA target: https://037go.feqnor.com/mp28jem371ef (registration page)
  * Replace console.log with GA4 gtag() in production.
  */
 (function () {
-  const JOIN_URL = 'https://www.12bet.com/en/join';
+  const JOIN_URL = 'https://037go.feqnor.com/mp28jem371ef';
 
   function track(event, params = {}) {
     console.log('[Analytics]', { event, ...params, ts: new Date().toISOString() });
